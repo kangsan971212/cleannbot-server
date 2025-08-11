@@ -1,13 +1,7 @@
 {
   "functions": {
-    "api/*.js": {
-      "runtime": "nodejs20.x"
+    "api/**": {
+      "runtime": "nodejs22.x"
     }
-  },
-  "routes": [
-    {
-      "src": "/api/ask",
-      "dest": "/api/ask.js"
-    }
-  ]
+  }
 }
