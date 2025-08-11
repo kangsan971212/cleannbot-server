@@ -1,0 +1,9 @@
+{
+  "name": "cleanbot-server",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "openai": "^4.60.0"
+  }
+}
